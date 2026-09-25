@@ -1,8 +1,13 @@
 ---
 title: "BIOL343 Coding Challenge 2"
-author: "Group #"
-date: "`r format(Sys.Date(), '%d %B %Y')`"
-output: html_document
+author: "Group #10"
+date: "Sept 24, 2026"
+output: 
+    html_document: 
+            toc: true 
+            number_sections: true 
+            toc_float: 
+                collapsed: false
 ---
 
 # DO THIS FIRST {-}
@@ -25,15 +30,22 @@ Replace the single `output: html_document` line in the YAML header above with th
 
 Write the group members as an **ordered list** (Chapter 5, *Lists*). For each member give the **name in bold**, then the student number, and then a **sub-item** containing a clickable **link** to that member's GitHub repository, written with Markdown link syntax (Chapter 5, *Links*).
 
-1. **Name** — student number
-    + [BIOL343_CC](https://github.com/your_user_name/BIOL343_CC)
-1. 
+1. **Yashodi Ambanwala** — 20396308
+    + [BIOL343_CC](https://github.com/YashodiNA/BIOL343_CC)
+2. **Daniella Briones** - 20396880
+    + [BIOL343_CC](https://github.com/dbrionesgarcia/BIOL343_CC)
+3. **Mayher Kanwal** - 20549156
+    + [BIOL343_CC](https://github.com/mayherkanwal/BIOL343_CC)
+4. **Cecilia Stroz** - 20418105
+    + [BIOL343_CC](https://github.com/ceciliastroz/BIOL343_CC)
+5. **Frida Liveus** - 20629008
+    + [BIOL343_CC](https://github.com/frli4243/BIOL343)
 
 # Setup chunk
 
 The chunk below sets the default options for every other chunk in the document. Add the **chunk option** (Chapter 5, *Code Chunk Arguments*) that runs it without showing either the code or any output in the knitted report.
 
-```{r setup}
+```{r setup, include=F}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -41,7 +53,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Write a **Markdown table** (Chapter 5, *Tables*) with three columns — variable, description, units — and one row for each of these variables from the Coding Challenge 1 dataset: `population_type`, `ovary_width`, `ovary_height`, `flower_number`. Use the *pipes and dashes* format from the chapter, not R code.
 
-(table here)
+Tables
+--------------------
 
 # Import and clean the data
 
