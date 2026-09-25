@@ -1,7 +1,0 @@
-{"chunk":null,"ts":"2026-09-25T14:05:33Z","pid":28690,"engine":"r","severity":"error","render":false,"text":"## Error: Syntax error: unexpected ','"}
-{"chunk":null,"ts":"2026-09-25T14:05:45Z","pid":28690,"engine":"r","severity":"error","render":false,"text":"## Error: Syntax error: unexpected symbol"}
-{"chunk":null,"ts":"2026-09-25T14:16:22Z","pid":28690,"engine":"r","severity":"warning","render":false,"warning":"## Warning: package ‘ggplot2’ was built under R version 4.4.3"}
-{"chunk":null,"ts":"2026-09-25T14:16:25Z","pid":28690,"engine":"r","severity":"error","render":false,"text":"## Error: could not find function \"facetwrap\""}
-{"chunk":null,"ts":"2026-09-25T14:16:35Z","pid":28690,"engine":"r","severity":"error","render":false,"text":"## Error: object 'population_type' not found"}
-{"chunk":null,"ts":"2026-09-25T14:16:54Z","pid":28690,"engine":"r","severity":"error","render":false,"text":"## Error: object 'f' not found"}
-{"chunk":null,"ts":"2026-09-25T14:17:14Z","pid":28690,"engine":"r","severity":"error","render":false,"text":"## Error: object 'f' not found"}
